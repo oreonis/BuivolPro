@@ -1,0 +1,372 @@
+
+@media(max-width:1600px){
+ .product__feature {
+    padding: 40px 60px;
+ }
+
+}
+
+
+@media(max-width:1366px){
+  .header__images-inner{
+  padding-top: 70px;
+  }
+  .header__buyvolpro__img{
+    width: 80%;
+  }
+  .facilities{
+  padding-bottom: 75px;
+  }
+  .facilities__inner{
+     display: flex;
+  } 
+  .product__feature__title {
+    margin-bottom: 30px;
+  }
+  .product__slider{
+    width: 50%;
+    padding: 40px 0 20px;
+  }
+  .product__slider__img{
+    width: 45%;
+  }
+  .product__feature {
+    padding-right: 10px;
+  }
+  .product__feature__list__item {
+    margin-bottom: 10px;
+  }   
+  .product__feature__btn__items{
+    display: flex;
+  }
+  .product__feature__btn, .product__feature__btn2{
+    width: 200px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+  .product__feature__btn2{
+   margin-top: 0;
+  }
+
+}
+
+@media(max-width:1200px){
+
+  .menu__list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    background-color: #2A2C2B;
+    display: block;
+    text-align: center;
+    transform: translateY(-200%);
+    transition: all .5s;
+    z-index: 1;
+  }
+  .menu__list.menu__list--active{
+    transform: translateY(0%);
+  }
+  .menu__list-link:hover{
+    border: none;
+  }
+  ul.menu__list{
+    padding: 70px 0 15px;
+  }
+  .menu__list-item + .menu__list-item{
+  margin-left: 0px;
+  }
+  .menu__list-link{
+    display: block;
+    padding: 15px 0;
+  }
+  .logo{
+    position: relative;
+    z-index: 2;
+  }
+  .menu__btn{
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    outline: #2A2C2B;
+  }
+
+
+  .plus__items{
+    display: block;
+  }
+  .plus__item{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .facilities__inner{
+    width: 50%;
+    justify-content: space-around;
+  }
+  .product__feature__btn, .product__feature__btn2{
+    width: 180px;
+  }
+  .product__presentation{
+    margin-bottom: 75px;
+  }
+  .objects__inner{
+    display: block;
+  }
+  .objects__inner__item{
+    margin: 40px auto;
+  }
+  .objects__inner{
+    margin-bottom: 100px;
+  }
+}
+
+
+
+@media(max-width:1024px){
+  .header__content__wrapper{
+    display: block;
+  }
+  .header__content-inner{
+   align-items: center; 
+  }
+  .header__images-inner{
+   display: none;
+  }
+  .about {
+    padding: 60px 0 50px;
+  }
+  .about__inner{
+    display: block;
+    margin: 0 auto;
+  }
+  .about__title{
+    display: block;
+    max-width: 770px;
+    margin: 0 auto 20px;
+  }
+  .about__text p{
+    display: block;
+    margin: 0 auto;
+  }
+  .facilities {
+    padding-bottom: 50px;
+  }
+  .facilities__title {
+    padding-top: 70px;
+  }
+  .product__inner{
+    display: block;
+  }
+  .product__slider{
+    width: 100%;
+    padding: 100px 0;
+  }
+  .product__feature__btn, .product__feature__btn2{
+    margin: 0 10px;
+  }
+  .connection{   
+    background-image:none;
+  }
+  .connection__form{
+    max-width: 100%;
+  }
+  .product__presentation__text{
+    font-size: 18px;
+  }
+  
+ 
+}
+
+@media(max-width: 850px){
+  .request__inner{
+    display: block;
+    text-align: center;
+  }
+  .request__text{
+    margin-bottom: 30px;
+  }
+  .request__btn{
+    padding: 15px;
+  }
+  .product__presentation__text{
+    font-size: 16px;
+  }
+ 
+}
+@media(max-width:768px){
+  .facilities__wrapper{
+    display: block;
+
+  }
+  .facilities__inner{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .excellence__video{
+    margin-bottom: 75px;
+  }
+  .excellence__item__img{
+    display: none;
+  }
+  .footer__top{
+    padding-top: 75px;
+  }
+  .footer__logo{
+    padding: 0 200px;
+  } 
+}
+@media(max-width: 705px){
+  .header__images-inner{
+    display: none; 
+  }
+  .header__content-inner{
+    align-items: center;
+}
+  .product__presentation{
+    padding: 10px;
+  }
+  .product__presentation__text{
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+}
+
+
+@media(max-width: 560px){
+  .header__title{
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .logo{
+    width: 50%;
+  }
+  .title{
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .request__title {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  ul.footer__social{
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .footer__social__list{
+    width: 50%;
+    margin-bottom: 25px;
+  }
+  .footer__logo{
+    padding: 0 100px;
+  }
+  .dws {
+    bottom: 30px;
+    right: 30px;
+  } 
+  .dws__pulse {
+   width: 60px;
+   height: 60px; 
+  }
+  .dws__phone { 
+   width: 60px;
+   height: 60px;
+   line-height: 64px;
+  } 
+  .dws__text {
+    top: 10px;
+   font-size: 10px;
+  }
+ 
+}
+
+@media(max-width: 470px){
+   .menu__btn__img{
+     width: 70%;
+   }
+   .header__content-inner {
+    min-height: calc(100vh - 58px);
+   }
+   .header__subtitle{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.7px;
+   }
+   
+   .btn{
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 0.4px;
+   }
+   .request__title {
+    line-height: 28px;
+    margin-bottom: 10px;
+   }
+   .title {
+    font-size: 33px;
+    line-height: 38px;
+   }
+    .product__slider__img{
+      width: 50%;
+    }
+   .product__feature__btn__items{
+    display: block;
+  }
+   .product__feature__btn, .product__feature__btn2{
+    width: 230px;
+    margin: 0 auto;
+  }
+  .product__feature__btn{
+    margin-bottom: 20px;
+  }
+
+}
+
+
+
+@media(max-width:382px){
+  .header__title {
+    font-size: 41px;
+    line-height: 44px;
+  }
+  .header__subtitle {
+    text-align: center;
+  }
+  .header__content-inner {
+    min-height: calc(100vh - 40px);
+  }
+  .title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .objects__inner__item{
+    width: 100%;
+  }
+  .product__feature__btn, .product__feature__btn2{
+    margin: 0;
+  }
+  .product__feature__btn{
+    margin-bottom: 20px;
+  }
+  .product__presentation__text{
+    font-size: 13px;
+    line-height: 26px;
+  }
+}
+
+@media(max-width:320px){
+  
+  
+  
+  .btn{
+    max-width: 280px;
+  }
+}
+
+
+
